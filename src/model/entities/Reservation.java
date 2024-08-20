@@ -66,15 +66,15 @@ public class Reservation {
 	
 	public String toString () {
 		
-		return "Room"
+		return "Room: "
 				+ roomNumber
-				+ "Check-in"
+				+ " Check-in: "
 				+ sdf.format(checkIn)
-				+ "CheckOut"
+				+ " CheckOut:"
 				+ sdf.format(checkOut)
 				+ ", "
 				+ duration()
-				+ "Nigths";
+				+ " Nigths";
 	}
 	
 }
